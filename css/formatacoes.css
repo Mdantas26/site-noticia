@@ -1,0 +1,386 @@
+#pagina1 *{
+   
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+#pagina1 .center{
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 2%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        width: 100%;
+}
+#pagina1 .about-header{
+        width: 100%;
+        background-color: #639ac9;
+        text-align: center;
+    
+}
+
+    #pagina1 .about-header p{
+        color: white;
+        padding: 5px;
+    }
+    #pagina1 header h2 span{
+        color:#639ac9
+    }
+    #pagina1 header h2{
+        font-size: 35px;
+        color: #222;
+        text-align: center;
+    }
+    #pagina1 .logo{
+        margin-top: 10px;
+    }
+    #pagina1 .wraper-header{
+        padding: 8px 0 ;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    #pagina1 .banner-ads{
+        width: 500px;
+        height: 149px;
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+    }
+    #pagina1 .banner-ads img{
+        padding: auto;
+        width: 500px;
+        height: 150px;
+        left: -1%;
+        position: relative;
+        cursor: pointer;
+    
+    }
+
+    #pagina1 .banner-ads h2{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+    }
+    #pagina1 .negocio{
+        width: 200px;
+        height: 200px;
+        color: black;
+        float: right;
+        overflow: hidden;
+    }
+
+    #pagina1 .menu-main{
+        width: 100%;
+        background-color: white;
+        padding: 8px;
+    }
+    #pagina1 .menu-main a{
+        display: inline-block;
+        margin: 0 10px;
+        color:#639ac9 ;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #pagina1 .menu-main a:hover{
+        text-decoration: underline;
+    }
+    #pagina1 .noticias-wraper-1{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    #pagina1 .noticias-destaque{
+        width: 60%;
+        padding-top: 20%;
+        background-color: #222;
+        border: 2px solid white;
+        position: relative;
+        
+    }
+    #pagina1 .noticias-destaque-single{
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+
+    }
+
+    #pagina1 .noticias-destaque-single h3{
+        padding: 10px;
+        color: white;
+        background-color:rgba(2, 2, 32, 0.7);
+    }
+
+    #pagina1 .outras-noticias-1{
+        display: flex;
+        width: 40%;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    #pagina1 .outra-noticia-1-single{
+        width: 50%;
+        padding-top: 30%;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid white;
+        background-color: #222;
+        position: relative;
+    }
+    #pagina1 .outra-noticia-1-single-{
+        width: 50%;
+        padding-top: 30%;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid white;
+        background-color: #222;
+        position: relative;
+    }
+    #pagina1 .outra-noticia-1-single- h3{
+        padding: 20px;
+        color: white;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        
+    
+        background-color:rgba(2, 2, 32, 0.7);
+    }
+    #pagina1 .outra-noticia-1-single h3{
+        padding: 10px;
+        color: white;
+        width: 100%;
+    
+        background-color:rgba(2, 2, 32, 0.7);
+
+    }
+    #pagina1 .text-center{
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    #pagina1 .dti{
+        text-align: center;
+        font-size: 18px;
+        background-color: rgba(2, 2, 32, 0.7);
+        color: white;
+    }
+    #pagina1 .logo{
+        text-align: center;
+        padding: 10px;
+    }
+    #pagina1 .logo img{
+        width: 200px;
+        height: auto;
+    }
+    /*FIM DAS FORMATAÇÕES DA PAGINA INICIAL*/
+    /*INICIO DAS FORMATAÇÕES DA PAGINA FALE CONOSCO*/
+    #pagina2 body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #pagina2 header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #pagina2 header h1 {
+        margin: 0;
+    }
+    
+    #pagina2 nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #pagina2 nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    #pagina2 nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    #pagina2 section {
+        padding: 20px;
+    }
+    #pagina2 section h2{
+        text-align: center;
+    }
+    
+    #pagina2 article {
+        margin-bottom: 20px;
+    }
+    
+    #pagina2 article h3 {
+        margin: 0;
+    }
+    
+    #pagina2 footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    #pagina2 form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    #pagina2 .form-group {
+        margin-bottom: 20px;
+    }
+    
+    #pagina2 label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    #pagina2 input[type="text"],
+    #pagina2 input[type="email"],
+    #pagina2 input[type="tel"],
+    #pagina2 select,
+    #pagina2 textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #pagina2 textarea {
+        resize: vertical;
+    }
+    
+    #pagina2 .btn-green {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #pagina2 .btn-green:hover {
+        background-color: #45a049;
+    }
+    /*FIM DAS FORMATAÇÕES DA PAGINA FALE CONOSCO*/
+    /*INICIO DAS FORMATAÇÕES DA PAGINA QUEM SOMOS*/
+    
+    #pagina3 body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+      
+    #pagina3 header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+    #pagina3 header h1 {
+        margin: 0;
+        font-size: 32px;
+      }
+      
+    #pagina3 nav {
+        background-color: #333;
+        padding: 10px;
+      }
+      
+    #pagina3 nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+    #pagina3 nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+    #pagina3 nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+    #pagina3  section {
+        padding: 20px;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+    #pagina3  .equipe-member {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+    #pagina3  .equipe-member img {
+        width: 100px;
+        height: 130px;
+        border-radius: 20%;
+        margin-right: 20px;
+      }
+      
+    #pagina3 .member-info h3 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+      }
+      
+    #pagina3 .member-info p {
+        color: #666;
+        line-height: 1.5;
+      }
+      
+    #pagina3 footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+      }
+      
+    #pagina3 footer p {
+        margin: 5px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+        font-size: 13px;
+      }
+    /*FIM DAS FORMATAÇÕES DA PAGINA QUEM SOMOS*/  
